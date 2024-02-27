@@ -68,3 +68,4 @@ def generate_final_response(session):
     total_questions = len(PYTHON_QUESTION_LIST)
 
     return f"User Score: {correct_count} correct out of {total_questions}"
+
